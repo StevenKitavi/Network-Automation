@@ -30,6 +30,6 @@ interface GigabitEthernet0/3
     switchport access vlan 10
     switchport mode access
 
-
+this is an automated script for generating switchport configurations
 
 
