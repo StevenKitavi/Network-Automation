@@ -7,7 +7,29 @@ Attributes include
 2. Description
 3. or Uplink 
 
-The Jinja Template is to iterate over each to produce configuration
+The Jinja Template is to iterate over each to produce configuration as follows 
+
+
+interface GigabitEthernet0/1
+    description Uplink Port
+    
+        switchport mode trunk 
+    
+    
+interface GigabitEthernet0/2
+    description Server port number one
+    
+    switchport access vlan 10
+    switchport mode access
+
+    
+    
+interface GigabitEthernet0/3
+    description Server port number two
+    
+    switchport access vlan 10
+    switchport mode access
+
 
 
 
