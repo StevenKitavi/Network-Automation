@@ -1,7 +1,13 @@
 from jinja2 import Environment,FileSystemLoader
+import yaml
 ENV = Environment(loader=FileSystemLoader('.'))
 template = ENV.get_template("GenInterfaceConfigs.j2")
 
+
+with open("data.yml") as f:
+    interfaces = yaml.load(f)
+    output =template.render(interface_list=interfaces)
+    print(output)
 
 interfaces = [
     {
@@ -21,4 +27,4 @@ interfaces = [
 
     }
 ]
-print(template.render(interface_list=interfaces ))
+
