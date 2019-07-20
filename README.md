@@ -1,4 +1,4 @@
-# NetworkAutomation
+# NetworkAutomation -- Sample Switch port configuration 
 The Python script renders a Jinja Template file with the configuration files </br>
 In the python Script is a  dictionary where the template variables get data from
 
