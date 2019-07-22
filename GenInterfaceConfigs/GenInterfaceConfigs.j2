@@ -1,4 +1,4 @@
-{% for interface in interface_list %}
+{% for interface in interface_list or [] %}
 interface {{ interface.name}}
     description {{ interface.desc }}
     {% if interface.uplink %}
