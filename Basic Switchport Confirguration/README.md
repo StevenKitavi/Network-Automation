@@ -1,8 +1,8 @@
 # NetworkAutomation --  Switch port configuration 
 
 Project elaborates two ways of writing data into a jinja template to configure a basic switchport configuration 
-1. Python Dictionary 
-2. Python Class 
+1. Python dictionary 
+2. Python Class. 
 
 The Python script renders a Jinja Template file with the configuration files </br>
 In the python Script is a  dictionary where the template variables get data from
