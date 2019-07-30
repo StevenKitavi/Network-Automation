@@ -1,0 +1,12 @@
+
+<rpc message-id="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<get>
+    <!--  XML content/response -->
+    <!-- Tow types of messages are <rpc> remote procedure all 
+    has to come with a message id so that the server can identify
+     the exact message when replying
+     and a <rpc-reply> 
+     -->
+</get>
+
+</rpc>
