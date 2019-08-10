@@ -13,5 +13,5 @@ print(my_list)
 #print the dictionary.yml using the python script
 my_dict = ly('dictionary.yml')
 for k, v in my_dict.items():
-    print v
+    print (v)
 
